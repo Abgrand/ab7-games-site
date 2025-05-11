@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AB7 Games</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: #121212;
+      color: #fff;
+    }
+    header {
+      background: url('https://via.placeholder.com/1200x400?text=AB7+Games') center/cover no-repeat;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .game {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .game img {
+      width: 100%;
+      display: block;
+    }
+    .game h3 {
+      margin: 10px;
+    }
+    .game p {
+      margin: 0 10px 10px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      background: #ff4757;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e1e1e;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>AB7 Games</h1>
+  <p>Indie Games With Attitude</p>
+</header>
+
+<section>
+  <h2>Our Games</h2>
+  <div class="games">
+    <div class="game">
+      <img src="https://via.placeholder.com/400x200?text=Game+1" alt="Game 1">
+      <h3>Cyber Heist</h3>
+      <p>A futuristic stealth-action game set in neon-lit cityscapes.</p>
+    </div>
+    <div class="game">
+      <img src="https://via.placeholder.com/400x200?text=Game+2" alt="Game 2">
+      <h3>Pixel Raiders</h3>
+      <p>Retro-style platformer full of explosions and boss fights.</p>
+    </div>
+    <div class="game">
+      <img src="https://via.placeholder.com/400x200?text=Game+3" alt="Game 3">
+      <h3>Shadow Drift</h3>
+      <p>Underground street racing with RPG-style upgrades and choices.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>About Us</h2>
+  <p>AB7 Games is a small indie studio creating bold, original, and fun experiences for players around the world. We're passionate about storytelling, game mechanics, and beautiful pixel art.</p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 AB7 Games. All rights reserved.
+</footer>
+
+</body>
+</html>
